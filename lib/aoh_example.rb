@@ -31,7 +31,7 @@ def literal_aoh
 end
 
 def aoh_lookup(aoh, row, key)
-  [aoh][row][key]
+  aoh[row][key]
 end
 
 (assembled_aoh, 2, :name)).to eq("Pat Monteseian")
